@@ -14,7 +14,7 @@ class custemsearthIcon extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
       ),
       child: Center(
-        child: IconButton(onPressed: () {}, icon: Icon(Icons.search, size: 28)),
+        child: IconButton(onPressed: () {}, icon: Icon(Icons.search)),
       ),
     );
   }
