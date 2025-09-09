@@ -1,7 +1,8 @@
 import 'package:hive_flutter/adapters.dart';
+part 'node.nodel.g.dart';
 
 @HiveType(typeId: 0)
-class Note_Model {
+class Note_Model extends HiveObject {
   @HiveField(0)
   final String titel;
   @HiveField(1)
