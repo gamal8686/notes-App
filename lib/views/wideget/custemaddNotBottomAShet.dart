@@ -20,7 +20,7 @@ class addNotBottomAShet extends StatelessWidget {
               Custemtextfild(hint: 'Titel'),
               SizedBox(height: 30),
               Custemtextfild(hint: 'Titel', maxLine: 5),
-              SizedBox(height: 70),
+              SizedBox(height: 50),
               MaterialButton(
                 onPressed: () {},
                 color: Colors.blue,
